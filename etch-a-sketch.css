@@ -1,12 +1,11 @@
 #container {
   display: grid;
   grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
+  max-width: 800px;
+  margin-top: 50px;
+  margin-left: 50px;
 }
 
-.gridItem {
-  border: 1px solid black;	
-}
-
-body {
-  width: 100%;	
+#gridItemAlpha:hover {
+  background-color: black;	
 }
